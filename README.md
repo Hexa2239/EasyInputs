@@ -108,6 +108,6 @@ To Vibrate The Controller There is Multiple Settings, There is Amplitude And Dur
 
 To Vibrate The Controller
 ```cs 
-//You choose hand first then Amplitude And Then Duration
+//You choose which hand first then Amplitude And Then Duration
 StartCoroutine(EasyInputs.Vibration(EasyHand.LeftHand, 0.15f, 0.15f))
 ```
