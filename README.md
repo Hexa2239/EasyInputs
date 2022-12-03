@@ -75,6 +75,11 @@ Get's The Thumbsticks Vector2, This Can Be Used For Movement And Turning
 ```cs 
 EasyInputs.GetThumbStick2DAxis(EasyHand easyHand);
 ```
+
+Vibrates the Controller
+```cs 
+StartCoroutine(EasyInputs.Vibration(easyHand, 0.15f, 0.15f))
+```
 # How To Use
 
 To Use A Button Down Function You Need To Do A If Statement
@@ -97,4 +102,12 @@ float GripValue = EasyInputs.GetGripButtonFloat(EasyHand.LeftHand);
 To Use A Button Vector2 Function You Need To Make A Vector2
 ```cs 
 Vector2 JoyStick = EasyInputs.GetThumbStick2DAxis(EasyHand.LeftHand);
+```
+
+To Vibrate The Controller There is Multiple Settings, There is Amplitude And Duration
+
+To Vibrate The Controller
+```cs 
+//You choose hand first then Amplitude And Then Duration
+StartCoroutine(EasyInputs.Vibration(EasyHand.LeftHand, 0.15f, 0.15f))
 ```
