@@ -4,6 +4,19 @@ XR Inputs Done Easily.
 
 Easy Hand Let's You Select Which Hand You Want To Get The Input From,
 There Are Two Values. LeftHand And RightHand
+Here are some examples on how to use it
+
+
+![RightHand](https://user-images.githubusercontent.com/104727812/206534907-c3d7eb3f-4f4f-4e9b-97c6-c3c840188f67.png)
+
+![LeftHand](https://user-images.githubusercontent.com/104727812/206534910-96358b1d-f2f2-4c29-b9e4-c60cc7fba729.png)
+
+You can also do a value that you can edit in the unity editor
+
+![Value](https://user-images.githubusercontent.com/104727812/206534902-9097e8a1-393e-4bf7-8f05-3331a9b1e1aa.png)
+
+![HandAnimations](https://user-images.githubusercontent.com/104727812/206535108-a717fc40-3e10-4eab-898e-1b8ced3dc913.png)
+
 
 You Need To Use easyInputs If You Wanna Use EasyInputs!
 
